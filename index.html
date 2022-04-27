@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="main">
+        <img src="./assets/image/frog.gif" alt="">
+        <img src="./assets/image/gif2.gif" alt="">
+        <img src="./assets/image/giphy.gif" width="200px" alt="" style="margin-left:400px;">
+        <button class="btnPlayGame">Play Game Frogger !</button>
+    </div>
+    <div class="bg_game">
+        <div class="scoreBoard">
+            <img src="./assets/image/score.png" alt="">
+            <div class="score content">
+                <p id="score">Score : 0 </p>
+
+            </div>
+            <div class="Speed">
+                <p id="speed">Speed: 1</p>
+            </div>
+            <div class="lose">
+                <p id="collisions_block">
+                    Death : 0
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <canvas id="canvas1"></canvas>
+            <canvas id="canvas2"></canvas>
+            <canvas id="canvas3"></canvas>
+            <canvas id="canvas4"></canvas>
+            <canvas id="canvas5"></canvas>
+        </div>
+    </div>
+
+    <script src="./assets/javascript/dom.js"></script>
+    <script src="./assets/javascript/setup.js"></script>
+    <script src="./assets/javascript/particles.js"></script>
+    <script src="./assets/javascript/frogger.js"></script>
+    <script src="./assets/javascript/obstacles.js"></script>
+    <script src="./assets/javascript/utilities.js"></script>
+
+</body>
+</html>
